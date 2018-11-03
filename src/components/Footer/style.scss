@@ -1,0 +1,44 @@
+@import '../../styles/breakpoints';
+
+.footer {
+  border-top: dotted 0.1rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  text-align: center;
+
+  @include breakpoint-medium-up {
+    .icons {
+      border-top: dotted 0.1rem;
+    }
+    margin-left: 6rem;
+    margin-right: 6rem;
+    display: flex;
+    justify-content: space-between;
+	}
+
+  @include breakpoint-large-up {
+    .icons {
+      border-top: none;
+    }
+    border-top: dotted 0.1rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    display: flex;
+    justify-content: space-between;
+	}
+
+  a {
+    color: black;
+  }
+
+  .brand-icon {
+    margin: 1rem;
+  }
+
+  .footer-name {
+    margin: 1rem;
+  }
+
+}

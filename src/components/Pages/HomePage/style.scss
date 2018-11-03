@@ -1,0 +1,27 @@
+.home_without_nav {
+  display: flex;
+      flex: 0 1 auto;
+
+  .content_grid {
+    flex: auto;
+    position: relative;
+  }
+
+  .home_content {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+
+  .scroll_next {
+    font-size: 2rem;
+    bottom: 0px;
+    margin: 4rem;
+    padding: 10rem;
+  }
+
+  h2 {
+    text-align: right;
+  }
+
+}

@@ -1,0 +1,44 @@
+header {
+  position: fixed;
+  top: 0rem;
+  right: -28rem;
+  float:right;
+  display: flex;
+  justify-content: flex-end;
+  background-color: transparent;
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+  }
+
+  .menu_About {
+    background-color: transparent;
+    margin: 2rem;
+    font-size: 2rem;
+  }
+
+  .menu_Projects {
+    background-color: transparent;
+    margin: 2rem;
+    font-size: 2rem;
+  }
+
+  .menu_Contect {
+    background-color: transparent;
+    margin: 2rem;
+    font-size: 2rem;
+  }
+
+  .menu_icon {
+    background-color: transparent;
+    margin: 2rem;
+    font-size: 2rem;
+  }
+
+  #arrow {
+    background-color: transparent;
+  }
+
+}
