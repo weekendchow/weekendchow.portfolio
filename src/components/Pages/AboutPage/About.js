@@ -17,13 +17,11 @@ const About = () => {
         </div>
       </div>
       <div className='content_grid'>
+        <h1>ABOUT</h1>
         <p>askdljfhkajbdfgkljhdfkahjgsdfjhakjdshvlkjadbsdlkbfkadjfsbgkjdshakj</p>
       </div>
-
         <ScrollToPrev pageSelector=".home_page"/>
         <ScrollToNext pageSelector=".projects_page"/>
-    
-
     </div>
   )
 }

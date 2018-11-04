@@ -18,6 +18,7 @@ const Projects = () => {
       </div>
 
       <div className='content_grid'>
+        <h1>PROJECTS</h1>
         <div>Iamcontent</div>
       </div>
       <ScrollToPrev pageSelector=".about_page"/>

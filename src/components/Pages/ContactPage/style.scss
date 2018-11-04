@@ -4,6 +4,58 @@
 
   .content_grid {
     flex: auto;
+
+    .btn {
+      text-align: right;
+    }
+
+    .contact_form {
+      .form_field {
+        position: relative;
+        margin: 3rem 0;
+      }
+      .input_text {
+        display: block;
+        width: 100%;
+        height: 3rem;
+        border-width: 0 0 0.12rem 0;
+        border-color: #000;
+        font-size: 1.8rem;
+
+        &:focus {
+           outline: none;
+        }
+
+        &:focus,
+        &.not-empty {
+           + .label {
+              transform: translateY(-2.4rem);
+           }
+        }
+      }
+      .label {
+        position: absolute;
+        left: 0.2rem;
+        bottom: 0.8rem;
+        font-size: 1.5rem;
+        color: #888;
+        cursor: text;
+        transition: transform .2s ease-in-out;
+      }
+      .submit_btn {
+        display: inline-block;
+        background-color: #000;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 0.15rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding: 0.6rem 1.2rem;
+        border: none;
+        cursor: pointer;
+      }
+    }
+
   }
 
 }
