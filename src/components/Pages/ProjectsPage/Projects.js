@@ -12,8 +12,8 @@ const Projects = () => {
           <div className='lastName'>Zhou</div>
         </div>
         <div className='name_container'>
-          <div className='firstName'>Mo</div>
-          <div className='lastName'>Zhou</div>
+          <div className='firstName'>Week</div>
+          <div className='lastName end'>end</div>
         </div>
       </div>
 

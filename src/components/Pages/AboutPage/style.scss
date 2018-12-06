@@ -4,6 +4,48 @@
 
   .content_grid {
     flex: auto;
+
+    p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+  }
+
+  .end {
+    padding-left: 7rem;
+  }
+
+  .about_title {
+  display: flex;
+  }
+
+  img {
+    margin-top: 1.25rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+    border: 0.1rem solid white;
+  }
+
+  .avater {
+    margin-left: 1.3rem;
+    position: relative;
+    -webkit-animation: mymove 6s infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-play-state: paused;
+  }
+
+  .avater:hover {
+     -webkit-animation-play-state: running;
+  }
+
+  @-webkit-keyframes mymove {
+    0% {left: 0rem;}
+    50% {left: 24rem;}
+    100% {
+      left: 0rem;
+      -webkit-transform:rotate(360deg);
+    }
   }
 
 }
