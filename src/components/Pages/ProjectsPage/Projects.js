@@ -1,6 +1,8 @@
 import React from 'react';
 import ScrollToNext from '../../ScrollToNext/ScrollToNext'
 import ScrollToPrev from '../../ScrollToPrev/ScrollToPrev'
+import ProjectItem from '../../ProjectItem/ProjectItem'
+import ProjectItems from './ProjectItems'
 import './style.scss'
 
 const Projects = () => {
@@ -19,7 +21,11 @@ const Projects = () => {
 
       <div className='content_grid'>
         <h1>PROJECTS</h1>
-        <div>Iamcontent</div>
+        <div className='projects_container'>
+          {ProjectItems.map((item, i) => (
+            <ProjectItem render={item.render} key={i} />
+          ))}
+        </div>
       </div>
       <ScrollToPrev pageSelector=".about_page"/>
       <ScrollToNext pageSelector=".contact_page"/>

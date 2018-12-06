@@ -1,0 +1,47 @@
+.project-item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15%;
+  width: 12.3rem;
+  height: 16rem;
+  margin: 1rem 0.3rem;
+  text-align: center;
+  background: #F2D7D5;
+}
+
+.project-item_title {
+  margin: 0.5rem;
+  margin-top: 0.7rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.brand-icon {
+  margin: 0rem  0.5rem;
+}
+
+.project-item_desc {
+  margin: 0.5rem 1rem;
+  font-size: 0.96rem;
+}
+
+.project-item:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
