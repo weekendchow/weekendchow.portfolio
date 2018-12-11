@@ -4,6 +4,7 @@ import About from './components/Pages/AboutPage/About';
 import Projects from './components/Pages/ProjectsPage/Projects';
 import Contact from './components/Pages/ContactPage/Contact';
 import Footer from './components/Footer/Footer'
+import Canvas from './utils/Canvas';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faLongArrowAltLeft } from '@fortawesome/free-solid-svg-icons';
@@ -16,6 +17,7 @@ class App extends Component {
   render() {
     return (
       <div className="React-Portfolio">
+        <Canvas />
         <Home />
         <About />
         <Projects />
@@ -25,5 +27,7 @@ class App extends Component {
     );
   }
 }
+
+
 
 export default App;

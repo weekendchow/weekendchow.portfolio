@@ -3,7 +3,7 @@ import './style.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const ProjectItem = (props) => {
-  console.log(props)
+  // console.log(props)
   if (props.render) return props.render;
   else return(
     <div className="project-item">
