@@ -1,6 +1,5 @@
 .scroll-to-next {
-  cursor: pointer;
-  padding-top: 50rem;
+ position: relative;
 
   .fa-rotate-270 {
     margin: 2rem;
@@ -9,6 +8,9 @@
 
   .bounce {
     animation: bounce 2s infinite;
+    position: absolute;
+    bottom: 7rem;
+    right: 0;
   }
 
   @keyframes bounce {

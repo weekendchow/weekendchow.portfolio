@@ -25,7 +25,7 @@ class Home extends Component {
 
   render(){
     return(
-      <div className='home_page'>
+      < div className = 'home_page container' >
         <NavBar />
         <div className='home_without_nav'>
           <div className='name'>
@@ -50,7 +50,7 @@ class Home extends Component {
                   <div className="front flip">
                   </div>
                   <div className="back flip">
-                    <img src={img_avatar} width="200" height="200" alt='avater'/>
+                    <img className="img_avatar" src={img_avatar} alt='avater'/>
                   </div>
                 </div>
               </li>

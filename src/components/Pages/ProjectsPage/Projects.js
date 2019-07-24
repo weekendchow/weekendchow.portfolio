@@ -7,7 +7,7 @@ import './style.scss'
 
 const Projects = () => {
   return(
-    <div className='projects_page'>
+    < div className = 'projects_page container' >
       <div className='name'>
         <div className='name_container'>
           <div className='firstName'>Mo</div>
@@ -27,7 +27,7 @@ const Projects = () => {
           ))}
         </div>
       </div>
-      <ScrollToPrev pageSelector=".about_page"/>
+      {/* <ScrollToPrev pageSelector=".about_page"/> */}
       <ScrollToNext pageSelector=".contact_page"/>
 
     </div>

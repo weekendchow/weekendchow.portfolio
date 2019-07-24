@@ -35,7 +35,7 @@ class NavBar extends Component {
       icon.add('fa-spin');
     } else {
       header.style.transition = '1s';
-      header.style.right ='-28rem';
+      header.style.right ='-30rem';
       icon.remove('fa-spin');
     }
 
@@ -63,7 +63,7 @@ class NavBar extends Component {
             Projects
           </div>
           <div onClick={(e) => this.scrollToPage('.contact_page')}
-          className='menu_Contect'>
+          className='menu_Contact'>
             Contact
           </div>
         </nav>

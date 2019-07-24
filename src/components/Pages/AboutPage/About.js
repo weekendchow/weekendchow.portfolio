@@ -6,7 +6,7 @@ import './style.scss'
 
 const About = () => {
   return(
-    <div className='about_page'>
+    <div className='about_page container'>
       <div className='name'>
         <div className='name_container'>
           <div className='firstName'>Mo</div>
@@ -41,10 +41,10 @@ const About = () => {
         <p>
           It’s very lucky for me to accomplish my master degree in a different country.
           This opens up my perspective and I believe that <b>keep learning</b> and <b>keep travelling</b> will definitely make me a wiser person.
-          So, if I am not coding now, you might find me exploring the world, learning new skills, watching movies, playing video games, or snowboarding🏂!
+          So, if I am not coding now, you might find me exploring the world, learning new skills, watching movies, playing Lego, or snowboarding🏂!
         </p>
       </div>
-        <ScrollToPrev pageSelector=".home_page"/>
+        {/* <ScrollToPrev pageSelector=".home_page"/> */}
         <ScrollToNext pageSelector=".projects_page"/>
     </div>
   )

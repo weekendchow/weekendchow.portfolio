@@ -1,7 +1,7 @@
 header {
   position: fixed;
   top: 0rem;
-  right: -28rem;
+  right: -30rem;
   float:right;
   display: flex;
   justify-content: flex-end;
@@ -15,25 +15,26 @@ header {
 
   .menu_About {
     background-color: transparent;
-    margin: 2rem;
+    margin: 2.5rem;
     font-size: 2rem;
   }
 
   .menu_Projects {
     background-color: transparent;
-    margin: 2rem;
+    margin: 2.5rem;
     font-size: 2rem;
   }
 
-  .menu_Contect {
+  .menu_Contact {
     background-color: transparent;
-    margin: 2rem;
+    margin: 2.5rem;
     font-size: 2rem;
   }
 
   .menu_icon {
     background-color: transparent;
     margin: 2rem;
+    margin-top: 1.8rem;
     font-size: 2rem;
   }
 

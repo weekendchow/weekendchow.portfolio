@@ -10,13 +10,10 @@
     display: flex;
     flex-wrap: wrap;
 
-    // @include breakpoint-small-down {
-    //   flex-direction: column;
-    //   align-items: center;
-    // }
-  a {
-    color: black;
-  }
+    a {
+     color: black;
+    }
+    
   }
 
 

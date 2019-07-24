@@ -68,7 +68,7 @@ class Contact extends Component {
 
   render(){
     return(
-      <div className='contact_page'>
+      < div className = 'contact_page container' >
         <div className='name'>
           <div className='name_container'>
             <div className='firstName'>Mo</div>
